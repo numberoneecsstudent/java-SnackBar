@@ -3,7 +3,6 @@ package SnackBar;
 public class Customer
 {
     private static int maxId = 0;
-    private int id;
     private String name;
     private double cashonhand;
 
@@ -20,7 +19,7 @@ public class Customer
         this.name = name;
     }
 
-    public void getName()
+    public getName()
     {
         return name;
     }
